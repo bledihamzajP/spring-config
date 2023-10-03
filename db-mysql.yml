@@ -1,1 +1,11 @@
-# spring-confi
+spring:
+  datasource:
+    url:
+jdbc:mysql://localhost:3306/Shop?createDatabaseIfNotExist=true&esessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTrunca$
+    username: root
+    password: rootroot123
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
